@@ -1,0 +1,22 @@
+var ID;
+var seconds=1;
+function startexam()
+{
+   ID= window.setInterval(msg,1000);
+   
+
+}
+
+function stopexam()
+{
+   window.clearTimeout(ID)
+}
+
+function msg()
+{
+    document.getElementById('h22').innerHTML="Seconds"+seconds;
+
+    seconds= seconds+1;
+    // document.getElementById('btnstart').style.visibility="hidden";
+    // document.getElementById('btnstop').style.visibility="hidden";
+}

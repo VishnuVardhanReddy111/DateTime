@@ -1,0 +1,13 @@
+function zoomin()
+{
+ 
+    document.getElementById('img1').style.border="2px solid red";
+    document.getElementById('img1').style.borderRadius="1250px";
+    document.getElementById('img1').style.width='850px';
+}
+
+function zoomout()
+{
+    document.getElementById('img1').style.width='100px';
+    document.getElementById('img1').style.borderRadius="50px";
+}

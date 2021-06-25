@@ -1,0 +1,19 @@
+var ID;
+function startexam()
+{
+   ID= window.setTimeout(msg,5000);
+   
+
+}
+
+function stopexam()
+{
+   window.clearTimeout(ID)
+}
+
+function msg()
+{
+    document.getElementById('h22').innerHTML="Exam is completed"
+    // document.getElementById('btnstart').style.visibility="hidden";
+    // document.getElementById('btnstop').style.visibility="hidden";
+}

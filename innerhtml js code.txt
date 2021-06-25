@@ -1,0 +1,9 @@
+function magic()
+{
+  var name=document.getElementById('fn').value;
+  
+   
+  document.getElementById('para1').innerHTML="Dear "+name;
+  document.getElementById('para1').style="color:red";
+
+}
